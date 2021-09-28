@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "car-rental",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
