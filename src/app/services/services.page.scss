@@ -1,0 +1,50 @@
+#services {
+  background-image: url(../../assets/flash-bg.svg);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10vw;
+  .service {
+    background-color: #fff;
+    min-height: 100px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid #000;
+    cursor: pointer;
+    .img-fluid {
+      height: 60px;
+    }
+    .heading {
+      font-family: "Roboto-Bold", "sans-serif";
+      font-size: 20px;
+    }
+    .subheading {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 380px) {
+  #services {
+    padding: 0 8vw;
+    .service {
+      .img-fluid {
+        height: 60px;
+      }
+      .heading {
+        font-size: 18px;
+      }
+      .subheading {
+        font-size: 14px;
+      }
+    }
+  }
+}

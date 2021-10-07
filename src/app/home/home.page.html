@@ -1,20 +1,271 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <div id="home">
+    <div class="film">
+      <!-- NavBar -->
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <div class="back-icon" routerLink="/services">
+                <i class="fas fa-chevron-left"></i>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="page-title">Car Selection</div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+      <!-- Header -->
+      <div class="sub-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 px-0">
+              <div class="option active">Site Pickup</div>
+            </div>
+            <div class="col-6 px-0">
+              <div class="option">Doorstep Delivery(Rs.450)</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <!-- Content -->
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="availability">Showing 7 cars in Delhi (NCR)</div>
+            </div>
+            <!-- Card #1 -->
+            <div class="col-12">
+              <div class="card_wrapper">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="car-details">
+                      <div class="name">Car Name</div>
+                      <div class="detail">Car Details</div>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select site location</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center align-items-center">
+                    <img
+                      src="../../assets/home-car.svg"
+                      class="img-fluid"
+                      alt="car logo"
+                    />
+                  </div>
+                </div>
+                <div class="card_footer">
+                  <div class="row gx-1">
+                    <div class="col-3">
+                      <div class="price active">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="price">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="price">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="book_now" routerLink="/book">Book Now</div>
+                    </div>
+                    <div class="col-12">
+                      <div class="additional">
+                        *Additional Rs 11/Kms
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card #2 -->
+            <div class="col-12">
+              <div class="card_wrapper">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="car-details">
+                      <div class="name">Car Name</div>
+                      <div class="detail">Car Details</div>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select site location</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center align-items-center">
+                    <img
+                      src="../../assets/home-car.svg"
+                      class="img-fluid"
+                      alt="car logo"
+                    />
+                  </div>
+                </div>
+                <div class="card_footer">
+                  <div class="row gx-1">
+                    <div class="col-3">
+                      <div class="price active">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="price">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="price">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="book_now" routerLink="/book">Book Now</div>
+                    </div>
+                    <div class="col-12">
+                      <div class="additional">
+                        *Additional Rs 11/Kms
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card #3 -->
+            <div class="col-12">
+              <div class="card_wrapper">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="car-details">
+                      <div class="name">Car Name</div>
+                      <div class="detail">Car Details</div>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select site location</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center align-items-center">
+                    <img
+                      src="../../assets/home-car.svg"
+                      class="img-fluid"
+                      alt="car logo"
+                    />
+                  </div>
+                </div>
+                <div class="card_footer">
+                  <div class="row gx-1">
+                    <div class="col-3">
+                      <div class="price active">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="price">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="price">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="book_now" routerLink="/book">Book Now</div>
+                    </div>
+                    <div class="col-12">
+                      <div class="additional">
+                        *Additional Rs 11/Kms
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card #4 -->
+            <div class="col-12">
+              <div class="card_wrapper">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="car-details">
+                      <div class="name">Car Name</div>
+                      <div class="detail">Car Details</div>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select site location</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center align-items-center">
+                    <img
+                      src="../../assets/home-car.svg"
+                      class="img-fluid"
+                      alt="car logo"
+                    />
+                  </div>
+                </div>
+                <div class="card_footer">
+                  <div class="row gx-1">
+                    <div class="col-3">
+                      <div class="price active">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="price">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="price">
+                        Price <br />
+                        <span>480kms free</span>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="book_now" routerLink="/book">Book Now</div>
+                    </div>
+                    <div class="col-12">
+                      <div class="additional">
+                        *Additional Rs 11/Kms
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </ion-content>

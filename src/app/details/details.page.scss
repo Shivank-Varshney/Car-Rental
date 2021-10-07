@@ -1,0 +1,222 @@
+#details {
+  // Header
+  .header {
+    background-color: #1b4e3b;
+    color: #fff;
+    padding: 40px 0 8px 0;
+    .back-icon,
+    .share-icon {
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .page-title {
+      font-family: "Roboto-Bold", "sans-serif";
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  //  Body
+  .body {
+    padding: 0 5vw;
+    .heading {
+      font-family: "Roboto-Bold", "sans-serif";
+      font-size: 16px;
+    }
+    .sub-text {
+      font-family: "Roboto-Regular", "sans-serif";
+      font-size: 14px;
+      color: #1b4e3b;
+    }
+    .phone {
+      font-size: 20px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .travel-desc {
+      background-color: #eaab2a;
+      margin: 20px 0 0 0;
+      .head {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        span {
+          font-family: "Roboto-Bold", "sans-serif";
+          font-size: 14px;
+        }
+      }
+      .body {
+        border-top: 2px dashed #000;
+        display: flex;
+        justify-content: space-between;
+        margin: 6px 0;
+        padding: 0;
+        span {
+          font-family: "Roboto-Medium", "sans-serif";
+          background-color: #eaab2a;
+          padding: 0 5px;
+          margin: -12px 0 0 0;
+        }
+      }
+    }
+    .pick-up {
+      font-family: "Roboto-Bold", "sans-serif";
+      margin: 16px 0 0 0;
+      padding: 0 0 8px 0;
+      font-size: 15px;
+      border-bottom: 1px solid #000;
+      i {
+        margin: 0 5px 0 0;
+        font-size: 18px;
+      }
+      span {
+        font-size: 14px;
+      }
+    }
+    .sect-left {
+      border-right: 1px solid #000;
+      .text {
+        font-family: "Roboto-Bold", "sans-serif";
+        font-size: 14px;
+        span {
+          font-size: 13px;
+          margin: 0 0 0 5px;
+        }
+      }
+    }
+    .sect-right {
+      .text {
+        font-family: "Roboto-Bold", "sans-serif";
+        font-size: 14px;
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+    .shade {
+      margin: 20px 0;
+      box-shadow: 1px 1px 4px;
+      padding: 5px 10px;
+      .security-heading {
+        font-family: "Roboto-Bold", "sans-serif";
+        font-size: 14px;
+      }
+      .security-subheading {
+        font-size: 13px;
+      }
+      .security-deposit {
+        font-family: "Roboto-Bold", "sans-serif";
+        font-size: 14px;
+      }
+    }
+    .condtion {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      .form-check-input {
+        box-shadow: none;
+        margin: 0 8px 0 0;
+      }
+    }
+    .book-now {
+      font-family: "Roboto-Bold", "sans-serif";
+      background-color: #1b4e3b;
+      font-size: 18px;
+      color: #fff;
+      padding: 6px 40px;
+      margin: 20px 0 0 0;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (max-width: 380px) {
+  #details {
+    // Header
+    .header {
+      .back-icon,
+      .share-icon {
+        font-size: 18px;
+      }
+      .page-title {
+        font-size: 18px;
+      }
+    }
+    //  Body
+    .body {
+      padding: 0 3vw;
+      .heading {
+        font-size: 14px;
+      }
+      .sub-text {
+        font-size: 12px;
+      }
+      .phone {
+        font-size: 16px;
+      }
+      .travel-desc {
+        margin: 18px 0 0 0;
+        .head {
+          padding: 8px 0;
+          span {
+            font-size: 12px;
+          }
+        }
+        .body {
+          border-top: 1px dashed #000;
+          span {
+            font-size: 12px;
+            padding: 0 6px;
+            margin: -10px 0 0 0;
+          }
+        }
+      }
+      .pick-up {
+        font-size: 13px;
+        border-bottom: 1px solid #000;
+        i {
+          margin: 0 5px 0 0;
+          font-size: 14px;
+        }
+        span {
+          font-size: 11px;
+        }
+      }
+      .sect-left {
+        border-right: 1px solid #000;
+        .text {
+          font-size: 13px;
+          span {
+            font-size: 11px;
+          }
+        }
+      }
+      .sect-right {
+        .text {
+          span {
+            font-size: 11px;
+          }
+        }
+      }
+      .shade {
+        padding: 5px 10px;
+        .security-heading {
+          font-size: 12px;
+        }
+        .security-subheading {
+          font-size: 11px;
+        }
+        .security-deposit {
+          font-size: 12px;
+        }
+      }
+      .condtion {
+        font-size: 12px;
+      }
+      .book-now {
+        font-size: 16px;
+      }
+    }
+  }
+}

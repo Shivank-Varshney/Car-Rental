@@ -1,0 +1,110 @@
+#book {
+  .header {
+    background-image: url(../../assets/book-screen.svg);
+    background-size: cover;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    .heading {
+      font-family: "Roboto-Bold", "sans-serif";
+      font-size: 24px;
+      text-transform: capitalize;
+      color: #fff;
+    }
+  }
+  .body {
+    margin: 0 4vw;
+    height: 65vh;
+    overflow-y: scroll;
+    form {
+      margin: 20px 0;
+      .form-select {
+        font-size: 14px;
+        border-color: #000;
+        box-shadow: none;
+        option {
+          font-size: 13px;
+          padding: 6px 0;
+        }
+      }
+      .trip {
+        display: flex;
+        align-items: center;
+        color: #eaab2a;
+        border: 1px solid #000;
+        border-radius: 5px;
+        .form-control {
+          font-size: 14px;
+          border: none;
+          box-shadow: none;
+        }
+        i {
+          font-size: 20px;
+          margin: 0 8px 0 0;
+        }
+      }
+      .submit_btn {
+        font-family: "Roboto-Bold", "sans-serif";
+        background-color: #eaab2a;
+        color: #000;
+        padding: 8px 40px;
+        margin: 15px 0 10px 0;
+        border-radius: 8px;
+      }
+    }
+    .line {
+      background-color: #000;
+      height: 1.3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0 20px 0;
+      .offer {
+        font-family: "Roboto-MEdium", "sans-serif";
+        background-color: #fff;
+        padding: 0 5px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 380px) {
+  #book {
+    .header {
+      height: 30vh;
+      .heading {
+        font-size: 22px;
+      }
+    }
+    .body {
+      margin: 0 2vw;
+      height: 70vh;
+      form {
+        margin: 18px 0;
+        .form-select {
+          font-size: 12px;
+          option {
+            font-size: 12px;
+          }
+        }
+        .trip {
+          .form-control {
+            font-size: 12px;
+          }
+          i {
+            font-size: 18px;
+          }
+        }
+      }
+      .line {
+        background-color: #000;
+        height: 1px;
+        margin: 0 0 20px 0;
+        .offer {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
